@@ -1,0 +1,85 @@
+main.css
+html {
+	font-size: 10px;
+	font-family: courier;
+}
+
+title {
+color:#ff7373;
+font-size: 16px;
+font-family: courier;
+}
+
+body {
+	background-color:#dae5e8;
+	margin:3rem;
+	border: 1rem solid #ffa7b6;
+	padding: 0 2rem; 
+	font-size: 1.5rem;
+	color:#ffa7b6;
+
+}
+
+.gif{
+text-indent: 90px;
+}
+
+.navigation {
+	padding:3rem 0;
+	text-align:center;
+}
+.navigation__link {
+	color: #f9105e;
+	font-size: 1.5rem;
+	padding: 0 1rem;
+
+	border-right: 1px solid #fff;
+	display: inline-block;
+	line-height: 2rem;
+}
+
+.navigation__link--last {
+	border-right:none;
+}
+.navigation__link--active {
+	color: #ff7373;
+	pointer-events: none;
+	font-weight: 400;
+	text-decoration:none;
+}
+
+.container {}
+
+.container--top {
+	padding-top: 4rem;
+}
+
+.container--bottom {
+	padding-bottom: 3rem;
+}
+
+.container__title {
+	text-align: center;
+	padding-bottom: 1rem;
+	color:#fff;
+	font-size: 1.5rem;
+	font-style: italic;
+	margin: 0;
+}
+
+.container--bottomline {
+	border-bottom: 5px solid #f7f7f7;
+}
+
+.container--topline {
+	border-top: 5px solid #f7f7f7;
+}
+
+.post {
+	color: #fff;
+	font-size: 1.2rem ;
+}
+}
+
+
+
